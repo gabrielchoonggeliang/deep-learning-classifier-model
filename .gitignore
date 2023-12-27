@@ -3,11 +3,22 @@ __pycache__/
 *.py[cod]
 *.class
 
+# Latex
+*.aux
+*.pdf
+*.pdf
+*.txt
+*.out
+
 # C extensions
 *.so
 
 # Dataset
 data/
+
+# Irrelevant
+.DS_Store
+*.pptx
 
 # Distribution / packaging
 .Python
