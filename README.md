@@ -1,21 +1,46 @@
-# AlexNet Car Brand Classifier 
-The aim of this project is to train a AlexNet model that could classify car brands. The current plan about this project is to differentiate between four common car brands that is local to where I am, namely: **Proton, Perodua, Toyota and Honda.**
+# AlexNet Object Classifier
 
-I am working on training the neural network at the moment but I am planning to expand the capability of this network in the future.
+This repository contains an object classifier based on the AlexNet architecture for image recognition.
 
 ## Project Overview
-This project uses the AlexNet model for training. The dataset was collected manually by capturing car photos of various angles. A number of approximately 900 photos were collected by hand.
+
+The aim of this project is to train a model capable of classifying different types of objects based on images. Initially, the model will focus on distinguishing between four common categories.
 
 ## Installation
 
+To install and run this project, follow these steps:
+
+1. Clone the repository to your local machine:
+   ```
+   git clone git@github.com:gabrielchoonggeliang/deep-learning-classifier-model.git
+   ```
+
+2. Navigate to the project directory:
+   ```
+   cd deep-learning-classifier-model
+   ```
+
+3. Install the required dependencies:
+   ```
+   pip install -r requirements.txt
+   ```
+
 ## Usage
+
+To use the object classifier, follow these steps:
+
+1. Train the model using the your own dataset.
+2. Evaluate the model's performance using test data.
+3. Use the trained model to classify new images.
 
 ## Configuration
 
-## Contributing
+You can customize the behavior of the classifier by modifying the configuration files located in the `config/` directory.
 
 ## License
 
-## Credits/ Acknowledgements
+This project is licensed under the Apache-2.0 License - see the [LICENSE](LICENSE) file for details.
 
-## Documentation
+## Note
+
+This project is currently undergoing a major overhaul. Contributions may be limited during this time. Thank you for your understanding.
